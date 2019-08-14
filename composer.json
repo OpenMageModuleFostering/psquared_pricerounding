@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Price rounding for a product catalog in Magento.",
+    "description": "Price rounding for the product catalog in Magento.",
     "authors": [
     {
         "name": "p squared",
