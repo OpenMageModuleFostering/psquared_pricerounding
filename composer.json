@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Psquared_PriceRounding",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Price rounding for a product catalog in Magento.",
+    "authors": [
+    {
+        "name": "p squared",
+        "email": "realityfforce@yahoo.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

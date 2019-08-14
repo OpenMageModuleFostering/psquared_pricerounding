@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+    <name>Psquared_PriceRounding</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Price rounding for a product catalog in Magento.</summary>
+    <description>This tiny extension allows to round the prices in the product catalog to force integer values instead of ugly decimal values. This is helpful in combination with currency convertion.&#xD;
+&#xD;
+Example: 100 &#x20AC; =&gt; USD 131.26&#xD;
+With enabled price rounding the price will be USD 131.00&#xD;
+&#xD;
+Features:&#xD;
+&#xD;
+- Enable or disable the price rounding per store view.&#xD;
+- Choose the rounding method per store view: round, ceil, floor (see math functions in PHP manual for more informations.)&#xD;
+&#xD;
+GitHub Repository:&#xD;
+https://github.com/patrickbaber/Psquared_PriceRounding</description>
+    <notes>Magento &gt;= 1.5.x</notes>
+    <authors><author><name>p squared</name><user>p_squared</user><email>realityfforce@yahoo.de</email></author></authors>
+    <date>2013-04-11</date>
+    <time>17:44:52</time>
+    <contents><target name="magecommunity"><dir name="."><file name="Psquared" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></target><target name="mageetc"><dir name="modules"><file name="Psquared_PriceRounding.xml" hash="853e6e0d3ebab74601e80cb0870da419"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
