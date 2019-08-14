@@ -2,9 +2,9 @@
 <config>
     <modules>
         <Psquared_PriceRounding>
-            <active>true</active>
+            <active>false</active>
             <codePool>community</codePool>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Psquared_PriceRounding>
     </modules>
 </config>

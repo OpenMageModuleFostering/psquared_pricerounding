@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Psquared_PriceRounding</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/gpl-license.php">GPL</license>
     <channel>community</channel>
@@ -10,20 +10,23 @@
     <description>This tiny extension allows to round the prices in the product catalog to force integer values instead of ugly decimal values. This is helpful in combination with currency convertion.&#xD;
 &#xD;
 Example: 100 &#x20AC; =&gt; USD 131.26&#xD;
+&#xD;
 With enabled price rounding the price will be USD 131.00&#xD;
 &#xD;
 Features:&#xD;
 &#xD;
 - Enable or disable the price rounding per store view.&#xD;
 - Choose the rounding method per store view: round, ceil, floor (see math functions in PHP manual for more informations.)&#xD;
+Settings under System - Configuration - Catalog - Catalog - Price Rounding.&#xD;
 &#xD;
 GitHub Repository:&#xD;
+&#xD;
 https://github.com/patrickbaber/Psquared_PriceRounding</description>
-    <notes>Magento &gt;= 1.5.x</notes>
+    <notes>- Fixing wrong extension path</notes>
     <authors><author><name>p squared</name><user>p_squared</user><email>realityfforce@yahoo.de</email></author></authors>
-    <date>2013-04-11</date>
-    <time>17:44:52</time>
-    <contents><target name="magecommunity"><dir name="."><file name="Psquared" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></target><target name="mageetc"><dir name="modules"><file name="Psquared_PriceRounding.xml" hash="853e6e0d3ebab74601e80cb0870da419"/></dir></target></contents>
+    <date>2013-04-12</date>
+    <time>10:29:48</time>
+    <contents><target name="magecommunity"><dir name="Psquared"><dir name="PriceRounding"><dir name="Helper"><file name="Data.php" hash="1b2b96bfc80ac99393e0c2c4bffa815c"/></dir><dir name="Model"><dir name="Directory"><file name="Currency.php" hash="0963ad057f8f833ff87cd7c6e6fd04e7"/></dir><file name="RoundingMethods.php" hash="7b74bc011066b3e1100d13be3377f3af"/></dir><dir name="etc"><file name="config.xml" hash="067fa45cbe17d12e68e74ad00f9458b6"/><file name="system.xml" hash="42c5feed1875eacaaaab118edf9c99e3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Psquared_PriceRounding.xml" hash="0ee27d34dc09a883273c39d0ebe9e13b"/></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="Psquared_PriceRounding.csv" hash="8b20629f8fa34e9477a9e21f6f90b629"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
